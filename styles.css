@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(to right, rgb(227, 255, 231), rgb(217, 231, 255));
+}
+
+#border {
+	height: 533.6px;
+	width: 300px;
+	background-color: black;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 5%;
+}
+
+#button-container {
+	position: relative;
+	top: 10%;
+	text-align: center;
+}
+
+button {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  font-size: larger;
+  font-family: "Helvetica";
+  margin-bottom: 5px;
+}
+
+.top {
+	background-color: lightgrey;
+}
+
+.number {
+  background-color: darkgrey;
+  color: white;
+
+}
+
+.operator {
+  background-color: orange;
+  color: white;
+}
+
+.clear {
+	background-color: orange;
+}
+
+.zero {
+	width: 135px;
+	border-radius: 40% 40%;
+}
+
+#answer {
+	font-size: 100px;
+	color: white;
+	font-family: "Helvetica";
+	font-weight: lighter;
+	position: relative;
+	top: 50px;
+	text-align: right;
+	padding-right: 15px;
+}
+
+img {
+	transform: scale(0.5)
+}
